@@ -1,0 +1,25 @@
+{
+  "name": "Economic-News-Web-Aplication",
+  "version": "1.0.0",
+  "description": "It will be an application that will deliver to the user a series of news about the Brazilian economy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur0311/Economic-News-Web-Aplication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur0311/Economic-News-Web-Aplication/issues"
+  },
+  "homepage": "https://github.com/Arthur0311/Economic-News-Web-Aplication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
+}
