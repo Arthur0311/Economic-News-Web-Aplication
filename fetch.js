@@ -29,12 +29,15 @@ async function getContent() {
                 let p = document.createElement('p')
                 let a = document.createElement('a');
 
+                // Put the necessary attributes in the 'a' element.
                 a.setAttribute('href', article.url);
                 a.setAttribute('target', '_blank');
 
-
+                // Take the necessary data from the JSON object and place the text of this data in the selected elements ('p' and 'a')
                 a.textContent = article.title;
                 p.textContent = article.description;
+
+                // Create a structure of DOM elements by creating one element in another
                 h4.appendChild(a);
                 cardList.appendChild(divCard);
                 divCard.appendChild(divCardConatiner);
