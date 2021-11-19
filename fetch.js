@@ -1,4 +1,3 @@
-
 const cardList = document.querySelector('.master-container');
 
 
@@ -14,7 +13,7 @@ async function getContent() {
     try {
 
         // Acess the server and take his content (response)
-        const url =   'http://localhost:3000/googlenewsapi'
+        const url =   "http://localhost:3000/googlenewsapi"
 
         fetch(url).then((response)=>{
             return response.json()
